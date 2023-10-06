@@ -1,0 +1,373 @@
+:root {
+    --main-pink: #ff69b4;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;;
+}
+
+body 
+{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+html 
+{
+    font-size: 62,5%;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+    font-family: 'Rubik', sans-serif; 
+}
+
+main h1
+{
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+header 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: black;
+}
+
+#nav_social
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav a
+{
+    color: black;
+    font-size: 2rem;
+}
+
+header img 
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid var(--main-pink);
+    z-index: 1000;
+}
+
+.content
+{
+    display: flex;
+    width: 1300px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+    min-height: 75vh;
+}
+
+aside
+{
+    width: 500px;
+    max-width: 100%;
+}
+
+aside nav
+{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+  
+aside nav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-left: 3px solid var(--main-pink);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+aside nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+footer 
+{
+    background-color: var(--main-pink);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.flags img {
+    width: 40px;
+    height: 30px;
+}
+
+.flags a {
+    text-decoration: none;
+}
+
+/* DARK MODE */
+
+#tooglenight {
+    display: none;
+}
+
+#mode-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30px;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.dark-mode #mode-toggle {
+    background-color: #ffffff;
+}
+
+#day-icon {
+    color: #ffffff;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#tooglenight:checked + #mode-toggle #day-icon {
+    opacity: 0;
+}
+
+.dark-mode #mode-toggle {
+    background-color: #ffffff;
+}
+
+.dark-mode #day-icon {
+    color: black; 
+}
+
+.dark-mode header 
+{
+    color: white;
+}
+
+.dark-mode main
+{
+    color: white;
+}
+
+.dark-mode
+{
+    background: url('../img/blacktexture.jpg');
+    color: white;
+}
+
+.dark-mode header nav a
+{
+    color: white;
+}
+
+.dark-mode aside nav a
+{
+    color: white;
+}
+
+
+
+/* DESIGN IMAGE */
+
+.form
+{
+    position: relative;
+}
+
+.form1 
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 400px;
+    height: 30px;
+    background-color: var(--main-pink);
+    z-index: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+  
+.form2 
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 400px;
+    width: 30px;
+    background-color: var(--main-pink);
+    z-index: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 100%);
+}
+
+/* Small Mobile */
+@media (max-width: 500px) 
+{
+    .form1 
+    {
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 20px;
+    }
+      
+      .form2 
+    {
+        top: 10px;
+        left: 10px;
+        height: 100px;
+        width: 20px;
+    }
+
+    #nav_social
+    {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+
+    header nav a
+    {
+    color: black;
+    font-size: 1.7rem;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 767px) 
+{
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 75vh;
+        width: 100%;
+    }
+
+    .form1 
+    {
+        top: 10px;
+        left: 10px;
+        width: 150px;
+        height: 20px;
+    }
+      
+      .form2 
+    {
+        top: 10px;
+        left: 10px;
+        height: 150px;
+        width: 20px;
+    }
+
+    header img 
+    {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1px solid var(--main-pink);
+        z-index: 1000;
+    }
+
+    header 
+    {
+        background-color: rgb(255, 255, 255);
+        padding: 10px 10px;
+        width: 100%;
+    }
+
+    footer 
+    {
+        text-align: center;
+    }
+
+
+}
+
+
+/* Tablettes */
+@media (min-width: 768px) and (max-width: 1023px) 
+{
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 75vh;
+        width: 100%;
+    }
+}
+  
+
+/* Petit écrans de PC */
+@media (min-width: 1023px) and (max-width: 1600px) 
+{
+    .content 
+    {
+        gap: 40px;
+        margin: 0 20px;
+        margin: 0 auto;
+    }
+    .form1 
+    {
+        top: 30px;
+        left: 30px;
+        width: 250px;
+        height: 20px;
+    }
+      
+      .form2 
+    {
+        top: 30px;
+        left: 30px;
+        height: 250px;
+        width: 20px;
+    }
+}
+  
