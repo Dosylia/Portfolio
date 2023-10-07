@@ -1,0 +1,237 @@
+:root {
+        --main-pink: #ff69b4;
+    }
+    
+
+#URSG 
+{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        margin-bottom: 40px;
+}
+
+#RYDC
+{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        margin-bottom: 40px;
+}
+
+#ModelPSD
+{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        margin-bottom: 40px;
+}
+
+.pictureproject
+{
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.slider 
+{
+        display: flex;
+        transition: transform 0.3s ease;
+}
+    
+.slider-button 
+{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 50px;
+        border: none;
+        font-size: 1.5rem;
+}
+
+.slider-button:hover 
+{
+        background-color: rgb(179, 12, 140);
+}
+
+.buttonsslide
+{
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+}
+
+.arrow_slider
+{
+        color: black;
+        font-size: 2rem;
+}
+
+/* DARK MODE */
+
+
+.dark-mode .arrow_slider
+{
+        color: white;
+        font-size: 3rem;
+}
+
+.dark-mode .slider-button 
+{
+        background-color: rgb(255, 255, 255);
+        color: black;
+
+}
+
+.dark-mode .slider-button:hover 
+{
+        background-color: rgb(179, 12, 140);
+        color: white;
+}
+
+/* Mobile */
+@media (max-width: 767px) 
+{
+    .flex
+    {
+        order: 1;
+    }
+
+    aside
+    {
+        order : 0;
+    }
+
+    #URSG
+    {
+        align-items: center;
+        gap: 20px;
+        margin: 0 20px 40px;
+    }
+
+    #RYDC
+    {
+        align-items: center;
+        gap: 20px;
+        margin: 0 20px 40px;
+    }
+
+    #ModelPSD
+    {
+        align-items: center;
+        gap: 20px;
+        margin: 0 20px 40px;
+    }
+
+    main h1
+    {
+        margin-bottom: unset;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    aside nav::before 
+    {
+      display: none;
+    }
+}
+
+/* Tablettes */
+@media (min-width: 768px) and (max-width: 1023px) 
+{
+    .flex
+    {
+        order: 1;
+    }
+
+    aside
+    {
+        order : 0;
+    }
+
+    #URSG
+    {
+        align-items: center;
+        gap: 20px;
+        margin: 0 20px 40px;
+    }
+
+    #RYDC
+    {
+        align-items: center;
+        gap: 20px;
+        margin: 0 20px 40px;
+    }
+
+    #ModelPSD
+    {
+        align-items: center;
+        gap: 20px;
+        margin: 0 20px 40px;
+    }
+
+    main h1
+    {
+        margin-bottom: unset;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    aside nav::before 
+    {
+      display: none;
+    }
+}
+
+/* Petit écrans de PC */
+@media (min-width: 1023px) and (max-width: 1600px) 
+{
+    #URSG 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto 40px;
+    }
+
+    #RYDC
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto 40px;
+    }
+
+    #ModelPSD
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto 40px;
+    }
+
+}
