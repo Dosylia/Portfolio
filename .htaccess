@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# Redirection de index.php vers la racine du site
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Suppression de l'extension .php pour les autres pages
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)\.html$ /$1 [L,R=301]
+
+# Redirection HTTP vers HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Enlever index.php 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.html$ / [R=301,L]
