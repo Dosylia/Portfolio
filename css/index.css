@@ -58,13 +58,6 @@
         order : 0;
     }
 
-    #welcome h1
-    {
-        margin-bottom: unset;
-        font-size: 3rem;
-        font-weight: 400;
-    }
-
     .aboutme
     {
         padding: 40px;

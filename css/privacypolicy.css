@@ -1,0 +1,90 @@
+#privacypolicy 
+{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 30px;
+    margin: 0 auto 30px 30px;
+}
+
+/* DARK MODE */
+
+.dark-mode #privacypolicy
+{
+    color: white;
+}
+
+/* Mobile */
+@media (max-width: 767px) 
+{
+    #privacypolicy 
+    {
+        order: 1;
+        margin: 0 auto 30px auto;
+        width: 80%;
+    }
+
+    aside
+    {
+        order : 0;
+    }
+
+
+    aside nav::before 
+    {
+      display: none;
+    }
+}
+  
+/* Tablettes */
+@media (min-width: 768px) and (max-width: 1023px) 
+{
+    #privacypolicy  
+    {
+        order: 1;
+        margin: 0 auto 30px auto;
+        width: 80%;
+    }
+
+    aside
+    {
+        order : 0;
+    }
+
+    aside nav::before 
+    {
+      display: none;
+    }
+}
+
+/* Petit écrans de PC */
+@media (min-width: 1023px) and (max-width: 1600px) 
+{
+    #privacypolicy  
+    {
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: black;
+        gap: 30px;
+        width: 70%;
+        margin: 0 auto 30px 30px;
+    }
+
+}
+  
+/* Grands écrans de PC */
+@media (min-width: 1921px) 
+{
+
+    aside {
+        width: 100%;
+    }
+
+}

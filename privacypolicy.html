@@ -5,7 +5,7 @@
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <title>Emma Montbarbon</title>
                     <link rel="stylesheet" href="css/common.css">
-                    <link rel="stylesheet" href="css/contact.css">
+                    <link rel="stylesheet" href="css/privacypolicy.css">
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +15,8 @@
 
 
                 <body>
+                    <span id="error"></span>
+                    <span id="success"></span>
                     <header>
                         <a href="index.html" class="form">
                             <div aria-hidden="true" class="form1"></div>
@@ -36,30 +38,22 @@
 
 
                     <main>
-                        <h1>Contact</h1>
+                        <h1>Legal Notice</h1>
                         <div class="content">
-                            <section id="form">
-                                <form id="contactme" action="php/sendEmail.php" method="POST">
-                                    <fieldset>
-                                        <legend>Contact me directly</legend>
-                                        <div class="column">
-                                            <label for="email">Your email</label>
-                                            <input type="text" id="email" name="email">
-                                        </div>
+                            <section id="privacypolicy">
+                                <p>This website is operated by Emma Montbarbon. By accessing or using this website, you agree to comply with and be bound by the following terms and conditions of use. If you do not agree with these terms and conditions, please do not use this website.</p>
 
-                                        <div class="column">
-                                            <label for="topic">Topic of message</label>
-                                            <input type="text" name="topic" id="topic">
-                                        </div>
+                                <h2>Intellectual Property</h2>
+                                <p>All content on this website, including but not limited to text, images, graphics, logos, and software, is the property of Emma Montbarbon and is protected by intellectual property laws. You may not use, reproduce, or distribute any content from this website without the prior written consent of Emma Montbarbon.</p>
 
-                                        <div class="column">
-                                            <label for="message">Message</label>
-                                            <textarea name="message" id="message"></textarea>
-                                        </div>
+                                <h2>Disclaimer</h2>
+                                <p>The information provided on this website is for general informational purposes only. I make no representations or warranties about the accuracy, completeness, or reliability of this information. Any reliance you place on such information is strictly at your own risk.</p>
 
-                                        <input type="submit" name="submit" id="btnSubmit" value="Submit">
-                                    </fieldset>
-                                </form>
+                                <h2>Governing Law</h2>
+                                <p>These terms and conditions are governed by and construed in accordance with the laws of France, and any disputes relating to these terms and conditions will be subject to the exclusive jurisdiction of the courts of France.</p>
+
+                                <h2>Contact Information</h2>
+                                <p>If you have any questions or concerns about these terms and conditions, please contact me at emma.montbarbon@outlook.fr</p>
                             </section>
 
                         <aside>
@@ -67,6 +61,7 @@
                                 <a href="index.html">Home</a>
                                 <a href="project.html">Projects</a>
                                 <a href="aboutme.html">About me</a>
+                                <a href="contact.html">Contact</a>
                             </nav>
                         </aside>
                         </div>
@@ -74,18 +69,20 @@
 
                     <footer>
                         <div class="flags">
-                            <a href="lang/fr/contact.html">
+                            <a href="lang/fr/privacypolicy.html">
                                 <img src="img/fr.svg" alt="Traduire le site en français">
                             </a>
-                            <a href="lang/ger/contact.html">
+                            <a href="lang/ger/privacypolicy.html">
                                 <img src="img/de.svg" alt="Website ins Deutsche übersetzen">
                             </a>
                         </div>
                         <div class="footer_text">
                             <p>&copy; 2023, Emma Montbarbon</p>
-                            <a href="privacypolicy.html">Legal Notice</a>
                         </div>
                     </footer>  
                     <script src="js/script.js"></script>
+                    <script type="text/javascript" id="cookieinfo"
+                        src="//cookieinfoscript.com/js/cookieinfo.min.js">
+                    </script>
                 </body>
 </html>
