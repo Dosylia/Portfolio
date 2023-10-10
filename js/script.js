@@ -1,4 +1,3 @@
-const body = document.querySelector('body');
 const toggleNightInput = document.getElementById("tooglenight");
 const queryString = window.location.search;
 const errorSpan = document.getElementById('error');
