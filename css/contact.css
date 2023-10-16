@@ -72,7 +72,7 @@ textarea
 {
     margin-bottom: 30px;
     width: fit-content;
-    background-color: rgb(12, 177, 37);
+    background-color: var(--main-pink);
     color: white;
     padding: 10px 25px;
     text-align: center;
@@ -85,7 +85,7 @@ textarea
 
 #btnSubmit:hover
 {
-    background-color: var(--main-pink);
+    background-color: purple;
 }
 
 /* DARK MODE */

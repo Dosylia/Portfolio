@@ -53,11 +53,17 @@ h4
     font-family: 'Rubik', sans-serif; 
 }
 
+main
+{
+    margin-left: 10%;
+}
+
 main h1
 {
     font-size: 5rem;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 h2
@@ -89,11 +95,13 @@ header
     gap: 20px;
 }
 
+
 header nav a
 {
     color: black;
     font-size: 2rem;
 }
+
 
 header img 
 {
@@ -110,7 +118,7 @@ header img
     display: flex;
     width: 1300px;
     max-width: 100%;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 100px;
     margin: 0 auto;
@@ -125,7 +133,10 @@ aside
 
 aside nav
 {
-    position: relative;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -152,6 +163,11 @@ aside nav a
     font-size: 3rem;
     font-weight: 600;
     white-space: nowrap;
+}
+
+aside nav a.thisPage
+{
+    color: var(--main-pink);
 }
 
 footer 
@@ -254,6 +270,12 @@ footer a
     color: white;
 }
 
+.dark-mode aside nav a.thisPage
+{
+    color: var(--main-pink);
+}
+
+
 
 
 /* DESIGN IMAGE */
@@ -312,6 +334,7 @@ footer a
     z-index: 5;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
     }
 
@@ -344,12 +367,17 @@ footer a
         border-top: 3px solid var(--main-pink);
         width: 10%;
         margin: 0 auto;
-        padding: 20px;
+        padding: 20px;    
+        position: relative;
+        right: unset;
+        top: unset;
+        transform: unset;
     }
 
-    h1 
+    main h1 
     {
         padding-bottom: 20px;
+        font-size: 3rem;
     }
     
 }
@@ -359,10 +387,11 @@ footer a
 @media (max-width: 767px) 
 {
 
-    h1 
+    main h1 
     {
         padding-bottom: 20px;
         margin-left: 40px;
+        font-size: 3rem;
     }
 
     .content
@@ -425,6 +454,10 @@ footer a
         width: 10%;
         margin: 0 auto;
         padding: 20px;
+        position: relative;
+        right: unset;
+        top: unset;
+        transform: unset;
     }
 
 
@@ -452,12 +485,17 @@ footer a
         width: 20%;
         margin: 0 auto;
         padding: 20px;
+        position: relative;
+        right: unset;
+        top: unset;
+        transform: unset;
     }
 
-    h1 
+    main h1 
     {
         padding-bottom: 20px;
         margin-left: 40px;
+        font-size: 3rem;
     }
     
 }
@@ -466,6 +504,12 @@ footer a
 /* Petit écrans de PC */
 @media (min-width: 1023px) and (max-width: 1600px) 
 {
+
+    main h1 
+    {
+        margin-bottom: 70px;
+    }
+
     .content 
     {
         gap: 40px;
@@ -486,5 +530,11 @@ footer a
         height: 250px;
         width: 20px;
     }
+
+    aside nav
+{
+    right: 0;
+    padding: 20px;
+}
 }
   
