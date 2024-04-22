@@ -8,7 +8,6 @@
 .error-404 {
   font-size: 288px;
   font-weight: 700;
-  margin-top: 100px;
   @media (max-width: 768px) {
     font-size: 26vw;
   }
@@ -24,12 +23,16 @@
     font-size: 18px;
   }
 }
-.error-link {
-  color: black;
-  text-align: center;
-  margin-top: 130px;
-  margin-bottom: 100px;
-  @media (max-width: 768px) {
-    font-size: 14px;
+
+.error-link-container {
+  text-decoration: none;
+  .error-link {
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 }

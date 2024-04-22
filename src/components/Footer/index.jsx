@@ -5,8 +5,13 @@ function Footer() {
   return (
     <footer>
       <img src={Logo} alt="Logo Emma Montbarbon" />
-      <div className="footer-content"></div>
-      <p>© 2024 Emma Montbarbon. All rights reserved</p>
+      <p>© 2024 Emma Montbarbon. Tous droits réservés</p>
+      <div className="banner banner-top-left">
+        <div className="banner-children"></div>
+      </div>
+      <div className="banner banner-top-right"></div>
+      <div className="banner banner-bottom-left"></div>
+      <div className="banner banner-bottom-right"></div>
     </footer>
   )
 }

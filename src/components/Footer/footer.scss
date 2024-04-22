@@ -1,3 +1,5 @@
+@import '../../assets/style/variables.module.scss';
+
 footer {
   display: flex;
   flex-direction: column;
@@ -6,10 +8,11 @@ footer {
   margin-top: auto;
   padding-top: 64px;
   padding-bottom: 30px;
-  background-color: #000;
+  background-image: url(../../assets/img/footer-texture.jpg);
   margin-top: 20px;
+  position: relative;
   img {
-    height: 50px;
+    height: 100px;
     object-fit: contain;
   }
   p {
@@ -19,7 +22,47 @@ footer {
     text-align: center;
     @media (max-width: 769px) {
       font-size: 12px;
-      width: 30%;
+      width: 50%;
     }
+  }
+
+  .banner {
+    position: absolute;
+    height: 10%;
+    background-image: url(../../assets/img/footer-texture-transparent.png);
+    background-color: $main-color;
+    background-blend-mode: overlay;
+  }
+
+  .banner-top-right {
+    top: 30%;
+    right: 0;
+    width: 15%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .banner-top-left {
+    top: 30%;
+    width: 15%;
+    left: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .banner-bottom-right {
+    bottom: 30%;
+    right: 0;
+    width: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .banner-bottom-left {
+    bottom: 30%;
+    left: 0;
+    width: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
   }
 }
