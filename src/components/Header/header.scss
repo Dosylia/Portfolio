@@ -8,6 +8,10 @@ header {
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 20px 300px;
+  width: 100%;
+  @media (max-width: 769px) {
+    padding: 10px 10px;
+  }
 
   .banner {
     position: absolute;
@@ -22,6 +26,9 @@ header {
     width: 10%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 10px;
+    @media (max-width: 769px) {
+      width: 3%;
+    }
   }
 
   .banner-top-left {
@@ -30,6 +37,9 @@ header {
     left: 0;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 10px;
+    @media (max-width: 769px) {
+      width: 3%;
+    }
   }
 
   .banner-bottom-right {
@@ -38,6 +48,9 @@ header {
     width: 12%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 20px;
+    @media (max-width: 769px) {
+      width: 5%;
+    }
   }
 
   .banner-bottom-left {
@@ -46,17 +59,23 @@ header {
     width: 12%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 20px;
+    @media (max-width: 769px) {
+      width: 5%;
+    }
   }
 
   img {
     height: 68px;
     object-fit: contain;
     @media (max-width: 769px) {
-      height: 47px;
+      height: 50px;
     }
   }
 
   nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     a {
       font-weight: 500;
       margin-right: 20px;
@@ -65,6 +84,13 @@ header {
       font-size: 25px;
       transition: font-size 0.2s;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+      @media (max-width: 769px) {
+        font-size: 23px;
+        margin-right: 15px;
+        &:hover {
+          font-size: 27px;
+        }
+      }
 
       &:last-child {
         margin-right: 0;
@@ -74,6 +100,19 @@ header {
       }
       &.active {
         font-weight: 600;
+      }
+
+      .fa-solid {
+        display: none;
+        @media (max-width: 769px) {
+          display: inline;
+        }
+      }
+
+      p {
+        @media (max-width: 769px) {
+          display: none;
+        }
       }
     }
   }
