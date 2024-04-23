@@ -1,11 +1,13 @@
 import { NavLink } from 'react-router-dom'
-import Logo from '../../assets/img/logo-icon.png'
+import Logo from '../../assets/img/logo-icon-white.png'
 import './header.scss'
 
 function Header() {
   return (
     <header>
-      <img src={Logo} alt="Logo Emma Montbarbon" />
+      <NavLink to="/" activeclassname="active" exact="">
+        <img src={Logo} alt="Logo Emma Montbarbon" />
+      </NavLink>
       <nav>
         <NavLink to="/" activeclassname="active" exact="">
           Accueil
@@ -23,6 +25,10 @@ function Header() {
           Contact
         </NavLink>
       </nav>
+      <div className="banner banner-top-left"></div>
+      <div className="banner banner-top-right"></div>
+      <div className="banner banner-bottom-left"></div>
+      <div className="banner banner-bottom-right"></div>
     </header>
   )
 }

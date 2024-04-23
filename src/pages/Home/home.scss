@@ -1,0 +1,12 @@
+.home-container {
+  position: relative;
+  z-index: 1;
+  background-image: url(../../assets/img/spaceship-red.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 190vh;
+  width: 100%;
+  margin-top: -100vh;
+  overflow: hidden;
+}
