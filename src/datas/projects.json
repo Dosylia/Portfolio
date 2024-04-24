@@ -5,12 +5,13 @@
     "github": "https://github.com/Dosylia/Kaza",
     "hosting": "https://kaza.pages.dev/",
     "description": "Projet pour apprendre React et SASS. Son objectif est de créer un site web pour la location d'appartements. Ce projet n'a pas de backend, toutes les données sont préalablement créées. Il fonctionne comme une application monopage utilisant des composants.",
-    "technologies": ["Create React app", "Javascript", "SASS", "HTML"],
-    "picture": [
-      "../../assets/img/projects/kaza/kaza-1.png",
-      "../../assets/img/projects/kaza/kaza-2.png",
-      "../../assets/img/projects/kaza/kaza-3.png"
-    ]
+    "technologies": [
+      "fa-brands fa-react",
+      "fa-brands fa-js",
+      "fa-brands fa-sass",
+      "fa-brands fa-html5"
+    ],
+    "picture": ["kaza/kaza-1.png", "kaza/kaza-2.png", "kaza/kaza-3.png"]
   },
   {
     "id": "2",
@@ -18,8 +19,8 @@
     "github": "https://github.com/Dosylia/Booki",
     "hosting": "https://dosylia.github.io/Booki/",
     "description": "Projet visant à reproduire un modèle Figma sans code fourni, dans le but de le reproduire parfaitement.",
-    "technologies": ["HTML", "CSS"],
-    "picture": ["../../assets/img/projects/booki/booki-1.png"]
+    "technologies": ["fa-brands fa-html5", "fa-brands fa-css3-alt"],
+    "picture": ["booki/booki-1.png"]
   },
   {
     "id": "3",
@@ -27,11 +28,16 @@
     "github": "https://github.com/Dosylia/DBTaxi",
     "hosting": "https://www.db-taxi.fr/",
     "description": "Premier site web pour un client, c'était un vrai challenge pour moi d'apprendre à gérer un projet du début jusqu'à la livraison (gérer l'hébergement).",
-    "technologies": ["HTML", "PHP", "CSS", "Javascript"],
+    "technologies": [
+      "fa-brands fa-html5",
+      "fa-brands fa-php",
+      "fa-brands fa-css3-alt",
+      "fa-brands fa-js"
+    ],
     "picture": [
-      "../../assets/img/projects/dbtaxi/dbtaxi-1.png",
-      "../../assets/img/projects/dbtaxi/dbtaxi-2.png",
-      "../../assets/img/projects/dbtaxi/dbtaxi-3.png"
+      "dbtaxi/dbtaxi-1.png",
+      "dbtaxi/dbtaxi-2.png",
+      "dbtaxi/dbtaxi-3.png"
     ]
   },
   {
@@ -40,8 +46,12 @@
     "github": "https://github.com/Dosylia/NinaCarducci",
     "hosting": "https://dosylia.github.io/NinaCarducci/",
     "description": "Project d'optimisation d'une site web, le code HTML était déjà donné mais il y avait de nombreuses erreurs, des problèmes d'accesibilités et de performances et un mauvais référencement. Le site web a été amélioré pour convenir au normes modernes.",
-    "technologies": ["Javascript", "HTML", "CSS"],
-    "picture": ["../../assets/img/projects/nina-carducci/nina-carducci-1.png"]
+    "technologies": [
+      "fa-brands fa-js",
+      "fa-brands fa-html5",
+      "fa-brands fa-css3-alt"
+    ],
+    "picture": ["nina-carducci/nina-carducci-1.png"]
   },
   {
     "id": "5",
@@ -49,7 +59,12 @@
     "github": "https://github.com/Dosylia/URSGMVC",
     "hosting": "",
     "description": "Projet personnel pour développer une application de mise en relation de gamers. Le projet a déjà été terminé une fois complètement en PHP/HTML mais manquant d'expérience lors de sa réalisation, il avait des issues. Ce nouveau project utilisant le model MVC a pour but d'être optimisé utilisant des bonnes pratiques.",
-    "technologies": ["HTML", "PHP", "CSS", "Javascript"],
-    "picture": ["../../assets/img/projects/ursg/ursg-1.png"]
+    "technologies": [
+      "fa-brands fa-html5",
+      "fa-brands fa-php",
+      "fa-brands fa-css3-alt",
+      "fa-brands fa-js"
+    ],
+    "picture": ["ursg/ursg-1.png"]
   }
 ]
