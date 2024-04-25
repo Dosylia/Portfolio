@@ -20,6 +20,27 @@
       flex-direction: column;
       margin-top: 110vh;
     }
+    .social {
+      padding-left: 20px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      @media (max-width: 1080px) {
+        flex-direction: row;
+      }
+      a {
+        color: $secondary-color;
+        i {
+          font-size: 40px;
+        }
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
     .title {
       color: white;
       width: 60%;
@@ -31,7 +52,6 @@
       }
       @media (max-width: 1080px) {
         width: 90%;
-        margin: auto;
       }
       h1 {
         word-wrap: break-word;
@@ -60,6 +80,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 30px;
       @media (max-width: 1300px) {
         width: 50%;
       }

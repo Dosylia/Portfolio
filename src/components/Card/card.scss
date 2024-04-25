@@ -30,13 +30,22 @@ article {
     align-items: center;
     gap: 10%;
     margin-bottom: 15px;
-    button {
-      padding: 10px 0;
+    a {
       width: 40%;
-      background-color: $secondary-color;
-      border: 1px solid red;
-      border-radius: calc(0.1rem + 1vw);
-      a {
+      button {
+        cursor: pointer;
+        padding: 10px 0;
+        width: 100%;
+        background-color: $secondary-color;
+        border: 2px solid $secondary-color;
+        border-radius: calc(0.1rem + 1vw);
+        &:hover {
+          background-color: $background-color;
+          border: 2px solid $secondary-color;
+          i {
+            color: $secondary-color;
+          }
+        }
         i {
           font-size: 20px;
           color: $main-color;
