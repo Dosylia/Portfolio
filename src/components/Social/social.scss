@@ -1,0 +1,23 @@
+@import '../../assets/style/variables.module.scss';
+
+.social {
+  padding-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  @media (max-width: 1080px) {
+    flex-direction: row;
+  }
+  a {
+    color: $secondary-color;
+    i {
+      font-size: 40px;
+    }
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

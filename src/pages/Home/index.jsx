@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import './home.scss'
 import Card from '../../components/Card'
 import Projects from '../../datas/projects.json'
+import Social from '../../components/Social'
+import Contact from '../../components/Contact'
 
 function Home() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0)
@@ -19,24 +21,7 @@ function Home() {
     <main>
       <div className="home-container">
         <section>
-          <div className="social">
-            <a
-              href="https://github.com/Dosylia"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Github Emma Montbarbon"
-            >
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/emma-montbarbon-23098723a/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Linkedin Emma montbarbon"
-            >
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </div>
+          <Social />
           <div className="title">
             <h1>
               Développeuse <span>Full-Stack</span>
@@ -66,6 +51,7 @@ function Home() {
             ))}
           </div>
         </section>
+        <Contact />
       </div>
     </main>
   )
