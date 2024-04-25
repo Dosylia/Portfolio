@@ -6,7 +6,6 @@
   align-items: center;
   padding: 30px 0;
   background-color: $background-color;
-  border-top: 5px solid $secondary-color;
   @media (max-width: 1080px) {
     flex-direction: column;
   }

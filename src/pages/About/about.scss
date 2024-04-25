@@ -9,6 +9,10 @@
     height: 500px;
     border-radius: 50px;
     padding: 20px;
+    @media (max-width: 850px) {
+      width: 250px;
+      height: 250px;
+    }
   }
 
   .apropos-container {
@@ -16,17 +20,26 @@
     h1 {
       padding: 20px;
       font-size: 3rem;
+      @media (max-width: 450px) {
+        font-size: 2rem;
+      }
     }
 
     p {
       padding: 20px;
       font-size: 1.5rem;
       overflow-wrap: break-word;
+      @media (max-width: 450px) {
+        font-size: 1rem;
+      }
       span {
         font-size: 2rem;
         font-family: 'Cinzel Decorative', serif;
         font-weight: bold;
         padding-right: 5px;
+        @media (max-width: 450px) {
+          font-size: 1.5rem;
+        }
       }
     }
   }

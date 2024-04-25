@@ -1,0 +1,46 @@
+@import '../../assets/style/variables.module.scss';
+
+.projects {
+  margin-bottom: 30px;
+  padding-top: 20px;
+  h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 20px;
+    .card-and-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        text-align: center;
+        padding: 20px;
+        font-size: 2rem;
+        color: $main-color;
+      }
+      .project-cards {
+        width: 50%;
+        @media (max-width: 840px) {
+          width: 30%;
+        }
+      }
+
+      p {
+        min-height: 200px;
+        height: fit-content;
+        padding: 20px;
+        width: 400px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
