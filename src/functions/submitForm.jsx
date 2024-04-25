@@ -35,11 +35,5 @@ export default function useFormData() {
       )
   }
 
-  function ShowError(error) {
-    const errorMessageElement = document.querySelector('.error-message')
-    errorMessageElement.textContent = error
-    errorMessageElement.style.color = 'red'
-  }
-
-  return { formData, handleChange, handleSubmit, ShowError }
+  return { formData, handleChange, handleSubmit }
 }

@@ -10,11 +10,13 @@ function Contact() {
   return (
     <section className="contact">
       <Social />
-      <div>
-        <form
-          onSubmit={(event) => handleSubmit(event, form.current)}
-          ref={form}
-        >
+      <div className="text-container">
+        <h1>
+          Besoin de me <span>contacter</span>? Envoyez un <span>message</span>!
+        </h1>
+      </div>
+      <form onSubmit={(event) => handleSubmit(event, form.current)} ref={form}>
+        <div className="input-row">
           <label htmlFor="name">Prénom/Nom:</label>
           <input
             type="text"
@@ -25,7 +27,9 @@ function Contact() {
             onChange={handleChange}
             required
           />
+        </div>
 
+        <div className="input-row">
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -36,7 +40,9 @@ function Contact() {
             onChange={handleChange}
             required
           />
+        </div>
 
+        <div className="input-row">
           <label htmlFor="topic">Sujet:</label>
           <input
             type="text"
@@ -47,7 +53,9 @@ function Contact() {
             onChange={handleChange}
             required
           />
+        </div>
 
+        <div className="input-row">
           <label htmlFor="message">Sujet:</label>
           <input
             type="text"
@@ -58,15 +66,14 @@ function Contact() {
             onChange={handleChange}
             required
           />
+        </div>
 
-          <div>
-            <button type="submit" className="btn-submit">
-              Envoyer
-            </button>
-            <div className="error-message"></div>
-          </div>
-        </form>
-      </div>
+        <div className="button-div">
+          <button type="submit" className="btn-submit">
+            Envoyer
+          </button>
+        </div>
+      </form>
     </section>
   )
 }

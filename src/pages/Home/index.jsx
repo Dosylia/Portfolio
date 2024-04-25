@@ -3,7 +3,6 @@ import './home.scss'
 import Card from '../../components/Card'
 import Projects from '../../datas/projects.json'
 import Social from '../../components/Social'
-import Contact from '../../components/Contact'
 
 function Home() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0)
@@ -20,7 +19,7 @@ function Home() {
   return (
     <main>
       <div className="home-container">
-        <section>
+        <section className="home-section">
           <Social />
           <div className="title">
             <h1>
@@ -51,7 +50,6 @@ function Home() {
             ))}
           </div>
         </section>
-        <Contact />
       </div>
     </main>
   )

@@ -40,7 +40,8 @@ article {
         border: 2px solid $secondary-color;
         border-radius: calc(0.1rem + 1vw);
         &:hover {
-          background-color: $background-color;
+          background-color: $main-color;
+          color: $secondary-color;
           border: 2px solid $secondary-color;
           i {
             color: $secondary-color;

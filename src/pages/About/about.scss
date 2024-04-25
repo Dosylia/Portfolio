@@ -1,0 +1,33 @@
+@import '../../assets/style/variables.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+.apropos {
+  padding: 30px;
+  img {
+    float: left;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    padding: 20px;
+  }
+
+  .apropos-container {
+    width: 100%;
+    h1 {
+      padding: 20px;
+      font-size: 3rem;
+    }
+
+    p {
+      padding: 20px;
+      font-size: 1.5rem;
+      overflow-wrap: break-word;
+      span {
+        font-size: 2rem;
+        font-family: 'Cinzel Decorative', serif;
+        font-weight: bold;
+        padding-right: 5px;
+      }
+    }
+  }
+}
