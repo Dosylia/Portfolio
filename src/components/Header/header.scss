@@ -124,6 +124,9 @@ header {
 
       .fa-solid {
         display: none;
+        &:hover {
+          color: $main-color;
+        }
         @media (max-width: 850px) {
           display: inline;
         }

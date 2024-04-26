@@ -19,11 +19,11 @@ function Header() {
         </NavLink>
         <NavLink to="/formation" activeclassname="active" exact="">
           <p>Formation</p>
-          <i className="fa-solid fa-school" aria-label="Formation"></i>
+          <i className="fa-solid fa-graduation-cap" aria-label="Formation"></i>
         </NavLink>
         <NavLink to="/projets" activeclassname="active" exact="">
           <p>Projets</p>
-          <i className="fa-solid fa-folder" aria-label="Projets"></i>
+          <i className="fa-solid fa-list-check" aria-label="Projets"></i>
         </NavLink>
         <NavLink to="/contact" activeclassname="active" exact="">
           <p>Contact</p>
