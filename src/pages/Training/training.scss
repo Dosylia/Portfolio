@@ -1,0 +1,38 @@
+@import '../../assets/style/variables.module.scss';
+
+.training {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  .image-dev {
+    width: 90%;
+    height: 500px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin: 10px 0 30px 0;
+  }
+  p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  article {
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .tech {
+      margin: 20px 0;
+      i {
+        color: $main-color;
+        padding-right: 20px;
+        font-size: 50px;
+      }
+    }
+  }
+}

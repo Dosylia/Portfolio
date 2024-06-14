@@ -7,7 +7,7 @@ header {
   align-items: center;
   position: relative;
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba($background-color, 0.6);
   padding: 20px 300px;
   width: 100%;
   @media (max-width: 1300px) {
@@ -103,7 +103,7 @@ header {
       color: $secondary-color;
       font-size: 25px;
       transition: font-size 0.2s;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+      text-shadow: 2px 2px 4px rgba($background-color, 1);
       @media (max-width: 769px) {
         font-size: 23px;
         margin-right: 15px;

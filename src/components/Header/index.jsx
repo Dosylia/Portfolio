@@ -13,17 +13,17 @@ function Header() {
           <p>Accueil</p>
           <i className="fa-solid fa-house" aria-label="Accueil"></i>
         </NavLink>
+        <NavLink to="/projets" activeclassname="active" exact="">
+          <p>Projets</p>
+          <i className="fa-solid fa-list-check" aria-label="Projets"></i>
+        </NavLink>
         <NavLink to="/apropos" activeclassname="active" exact="">
           <p>A propos</p>
           <i className="fa-solid fa-address-card" aria-label="A propos"></i>
         </NavLink>
-        <NavLink to="/formation" activeclassname="active" exact="">
-          <p>Formation</p>
-          <i className="fa-solid fa-graduation-cap" aria-label="Formation"></i>
-        </NavLink>
-        <NavLink to="/projets" activeclassname="active" exact="">
-          <p>Projets</p>
-          <i className="fa-solid fa-list-check" aria-label="Projets"></i>
+        <NavLink to="/formations" activeclassname="active" exact="">
+          <p>Formations</p>
+          <i className="fa-solid fa-graduation-cap" aria-label="Formations"></i>
         </NavLink>
         <NavLink to="/contact" activeclassname="active" exact="">
           <p>Contact</p>

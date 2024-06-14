@@ -56,7 +56,7 @@ function Contact() {
         </div>
 
         <div className="input-row">
-          <label htmlFor="message">Sujet:</label>
+          <label htmlFor="message">Message:</label>
           <input
             type="text"
             id="message"
