@@ -15,10 +15,9 @@ function About() {
             <span>N</span>ée près de Lyon en 1998, j'ai suivi une scolarité
             jusqu'au niveau du baccalauréat en littérature. Cependant, ma
             passion pour la programmation a pris racine bien plus tôt, lorsque,
-            en tant que joueur, j'ai commencé à jouer à Minecraft et que j'ai
+            en tant que joueuse, j'ai commencé à jouer à Minecraft et que j'ai
             souhaité posséder mon propre serveur. Pour concrétiser ce projet,
-            j'ai dû apprendre le JAVA et commencer à écrire des plugins. Je me
-            souviens encore de mon tout premier "Hello World".
+            j'ai dû apprendre le JAVA et commencer à écrire des plugins.
           </p>
 
           <p>

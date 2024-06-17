@@ -1,21 +1,8 @@
-import React, { useState, useEffect } from 'react'
 import './home.scss'
-import Card from '../../components/Card'
-import Projects from '../../datas/projects.json'
 import Social from '../../components/Social'
+import Emma from '../../assets/img/picture-emma.jpg'
 
 function Home() {
-  const [currentProjectIndex, setCurrentProjectIndex] = useState(0)
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentProjectIndex((prevIndex) =>
-        prevIndex === Projects.length - 1 ? 0 : prevIndex + 1,
-      )
-    }, 10000)
-    return () => clearInterval(interval)
-  }, [])
-
   return (
     <main>
       <div className="home-container">
@@ -30,24 +17,8 @@ function Home() {
               Node
             </p>
           </div>
-          <div className="card-container">
-            {Projects.map((project, index) => (
-              <div
-                key={project.id}
-                style={{
-                  display: index === currentProjectIndex ? 'block' : 'none',
-                }}
-              >
-                <Card
-                  key={project.id}
-                  image={project.picture[0]}
-                  title={project.title}
-                  github={project.github}
-                  hosting={project.hosting}
-                  technologies={project.technologies}
-                />
-              </div>
-            ))}
+          <div className="image-container">
+            <img src={Emma} alt="Emma Montbarbon" />
           </div>
         </section>
       </div>

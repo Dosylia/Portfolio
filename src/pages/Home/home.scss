@@ -54,12 +54,22 @@
         }
       }
     }
-    .card-container {
+    .image-container {
       width: 30%;
       display: flex;
       align-items: center;
       justify-content: center;
       margin-bottom: 30px;
+      img {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        filter: brightness(0.8);
+        @media (max-width: 850px) {
+          width: 350px;
+          height: 350px;
+        }
+      }
       @media (max-width: 1300px) {
         width: 50%;
       }

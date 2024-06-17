@@ -13,7 +13,6 @@ function Projects() {
         <div className="projects-container">
           {ProjectsData.map((project, index) => (
             <div className="card-and-description" key={index}>
-              <h2>{project.title}</h2>
               <Card
                 className="project-cards"
                 key={project.id}
@@ -22,8 +21,8 @@ function Projects() {
                 github={project.github}
                 hosting={project.hosting}
                 technologies={project.technologies}
+                description={project.description}
               />
-              <p>{project.description}</p>
             </div>
           ))}
         </div>

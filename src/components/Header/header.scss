@@ -95,6 +95,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 30px;
+    @media (max-width: 769px) {
+      padding-right: 0px;
+    }
     a {
       white-space: nowrap;
       font-weight: 500;
@@ -117,6 +121,7 @@ header {
       }
       &:hover {
         font-size: 30px;
+        color: $main-color;
       }
       &.active {
         font-weight: 600;

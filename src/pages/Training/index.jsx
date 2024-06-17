@@ -24,7 +24,7 @@ function Training() {
         />
         <article className="3wacademy">
           <h2>3W Academy - Développeuse Full Stack</h2>
-          <p>Juillet 2023 - Novembre 2023</p>
+          <p className="date">Juillet 2023 - Novembre 2023</p>
           <p>
             Ma formation avec la 3W Academy est composée de 3 axes principaux,
             l'intégration avec HTML/CSS/SASS, l'apprentissage de Javascript et
@@ -106,11 +106,10 @@ function Training() {
             <p>
               Par la suite, j'ai étudié la programmation orientée objet (POO) en
               PHP, en utilisant des classes, des getters, des setters, et des
-              constructeurs. Une fois ces notions acquises, j'ai part
-              <i class="fa-brands fa-github"></i>pé à un projet de groupe pour
-              créer un site permettant l'ajout et la suppression d'objets dans
-              une base de données SQL, avec une interface d'administration
-              sécurisée.
+              constructeurs. Une fois ces notions acquises, j'ai participé à un
+              projet de groupe pour créer un site permettant l'ajout et la
+              suppression d'objets dans une base de données SQL, avec une
+              interface d'administration sécurisée.
             </p>
             <p>
               Après ce projet, j'ai appris à gérer l'asynchronisme en combinant
@@ -142,7 +141,7 @@ function Training() {
         </article>
         <article className="openclassrooms">
           <h2>OpenClassrooms - Développeuse Full Stack</h2>
-          <p>Février 2024 - Octobre 2024</p>
+          <p className="date">Février 2024 - Octobre 2024</p>
           <p>
             Ma formation OpenClassrooms est composée de 7 projets, chacun
             correspondant à une partie. Ce portfolio est le dernier projet et,
