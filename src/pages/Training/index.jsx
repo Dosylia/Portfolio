@@ -46,6 +46,7 @@ function Training() {
               nouveau language le SASS (SCSS).
             </p>
             <img
+              className="image-dev"
               src={ProjetFinalIntegration}
               alt="Page d'un site web de vente thé avec une thématique verte et un design moderne, le site web contient un carroussel."
             />
@@ -70,6 +71,7 @@ function Training() {
               faire décoller une fusée dans l'espace grâce à Javascript
             </p>
             <img
+              className="image-dev"
               src={RocketLauncher}
               alt="Site web avec une fusée qui s'envole vers la lune suite à un compte a rebours atteignant 0."
             />
@@ -153,6 +155,7 @@ function Training() {
               <i class="fa-brands fa-css3-alt"></i>
             </div>
             <img
+              className="image-dev"
               src={Booki}
               alt="Site web de voyage au design moderne dans le thème bleu/blanc, avec des options d'hôtel et de lieux à visiter."
             />
@@ -174,6 +177,7 @@ function Training() {
               <i class="fa-brands fa-js"></i>
             </div>
             <img
+              className="image-dev"
               src={SophieBluel}
               alt="Site web d'architecte au design moderne dans le thème vert/blanc, présentant les réalisations de Sophie Bluel dans une galerie de projets."
             />
@@ -191,6 +195,7 @@ function Training() {
           </Collapse>
           <Collapse collapseTitle={"Partie 3 - Optimisation d'un site web"}>
             <img
+              className="image-dev"
               src={NinaCarducci}
               alt="Site web de photographe au design moderne dans le thème orange/rose, présentant une réalisation de Nina Carducci avec sa description."
             />
@@ -213,6 +218,7 @@ function Training() {
               <i class="fa-brands fa-sass"></i>
             </div>
             <img
+              className="image-dev"
               src={Kaza}
               alt="Site web de location d'appartements au design moderne dans le thème rouge/blanc, présentant différentes locations proposées."
             />
@@ -235,6 +241,7 @@ function Training() {
               <i class="fa-brands fa-node"></i>
             </div>
             <img
+              className="image-dev"
               src={MonVieuxGrimoire}
               alt="Site web de notation de livres au design moderne dans le thème beige/blanc, présentant différents livres populaires avec leur type, leur auteur, leur date de publication et une note sur 5 étoiles."
             />
@@ -259,7 +266,7 @@ function Training() {
               trouvant des solutions. J'ai ensuite créé un Kanban et décrit la
               méthodologie de développement, la durée du projet et les
               ressources nécessaires. Enfin, j'ai présenté tout cela au client
-              Qwenta. Le projet est disponible sur mon GitHub :
+              Qwenta.
             </p>
           </Collapse>
           <Collapse collapseTitle={'Partie 7 - Portfolio'}>

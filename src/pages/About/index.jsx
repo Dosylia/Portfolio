@@ -1,9 +1,20 @@
-import './about.scss'
-import Emma from '../../assets/img/picture-emma.jpg'
-import Contact from '../../components/Contact'
+import React from 'react'
 import BlackHeader from '../../components/BlackHeader'
+import Contact from '../../components/Contact'
+import Emma from '../../assets/img/picture-emma.jpg'
+import './about.scss' // Assurez-vous d'importer votre fichier de style si nécessaire
 
 function About() {
+  const handleDownload = () => {
+    const pdfUrl = `${process.env.PUBLIC_URL}/cv-emma-montbarbon.pdf`
+    const link = document.createElement('a')
+    link.href = pdfUrl
+    link.setAttribute('download', 'cv-emma-montbarbon.pdf')
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <main>
       <BlackHeader />
@@ -42,6 +53,10 @@ function About() {
             je désirais davantage de responsabilités. C'est alors que j'ai
             choisi de me réorienter vers mon métier de rêve : développeuse web.
           </p>
+
+          <button onClick={handleDownload} className="button-download">
+            Télécharger mon CV
+          </button>
         </div>
       </section>
       <Contact />

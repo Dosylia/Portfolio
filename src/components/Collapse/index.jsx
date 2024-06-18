@@ -15,7 +15,7 @@ function Collapse({ collapseTitle, children }) {
         <h3 className="collapse-title">
           {collapseTitle}{' '}
           <img
-            className={isOpen ? 'arrow-reversed' : 'arrow'}
+            className={isOpen ? 'arrow' : 'arrow-reversed'}
             src={arrow}
             alt="flêche directionnelle"
           />
