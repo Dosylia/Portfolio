@@ -11,7 +11,7 @@
       "fa-brands fa-sass",
       "fa-brands fa-html5"
     ],
-    "picture": ["kaza/kaza-1.png", "kaza/kaza-2.png", "kaza/kaza-3.png"]
+    "picture": ["kaza/kaza-1.webp", "kaza/kaza-2.webp", "kaza/kaza-3.webp"]
   },
   {
     "id": "2",
@@ -20,7 +20,7 @@
     "hosting": "https://dosylia.github.io/Booki/",
     "description": "Projet visant à reproduire un modèle Figma sans code fourni, dans le but de le reproduire parfaitement.",
     "technologies": ["fa-brands fa-html5", "fa-brands fa-css3-alt"],
-    "picture": ["booki/booki-1.png"]
+    "picture": ["booki/booki-1.webp"]
   },
   {
     "id": "3",
@@ -35,9 +35,9 @@
       "fa-brands fa-js"
     ],
     "picture": [
-      "dbtaxi/dbtaxi-1.png",
-      "dbtaxi/dbtaxi-2.png",
-      "dbtaxi/dbtaxi-3.png"
+      "dbtaxi/dbtaxi-1.webp",
+      "dbtaxi/dbtaxi-2.webp",
+      "dbtaxi/dbtaxi-3.webp"
     ]
   },
   {
@@ -51,7 +51,7 @@
       "fa-brands fa-html5",
       "fa-brands fa-css3-alt"
     ],
-    "picture": ["nina-carducci/nina-carducci-1.png"]
+    "picture": ["nina-carducci/nina-carducci-1.webp"]
   },
   {
     "id": "5",
@@ -65,6 +65,15 @@
       "fa-brands fa-css3-alt",
       "fa-brands fa-js"
     ],
-    "picture": ["ursg/ursg-1.png"]
+    "picture": ["ursg/ursg-1.webp"]
+  },
+  {
+    "id": "6",
+    "title": "Mon vieux grimoire",
+    "github": "https://github.com/Dosylia/Mon_Vieux_Grimoire",
+    "hosting": "",
+    "description": "Projet pour développer le back-end d'un site web de notation de livres. La partie React était déjà fournis, la difficulté du projet était d'y greffer Node,Express et Mongo pour pouvoir ajouter, supprimer, modifier des livres ou alors les noter.",
+    "technologies": ["fa-brands fa-node", "fa-brands fa-js"],
+    "picture": ["mon-vieux-grimoire/mon-vieux-grimoire-1.webp"]
   }
 ]

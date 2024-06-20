@@ -14,7 +14,7 @@
       display: flex;
       justify-content: space-between;
       padding: 20px;
-      width: 100%;
+      width: 50%;
       margin: auto;
       background-color: $main-color;
       color: $secondary-color;
@@ -24,8 +24,15 @@
         padding: 15px;
       }
 
+      .arrow {
+        width: 15px;
+        height: 15px;
+      }
+
       .arrow-reversed {
         transform: rotate(-0.5turn);
+        width: 15px;
+        height: 15px;
       }
     }
   }

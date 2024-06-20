@@ -1,8 +1,8 @@
 import React from 'react'
 import BlackHeader from '../../components/BlackHeader'
 import Contact from '../../components/Contact'
-import Emma from '../../assets/img/picture-emma.jpg'
-import './about.scss' // Assurez-vous d'importer votre fichier de style si nécessaire
+import Emma from '../../assets/img/picture-emma.webp'
+import './about.scss'
 
 function About() {
   const handleDownload = () => {

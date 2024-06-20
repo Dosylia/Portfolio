@@ -8,6 +8,13 @@
   object-fit: cover;
   box-sizing: border-box;
 }
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 #root {
   min-height: 100vh;
   margin: auto;

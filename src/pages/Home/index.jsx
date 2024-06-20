@@ -1,6 +1,6 @@
 import './home.scss'
 import Social from '../../components/Social'
-import Emma from '../../assets/img/picture-emma.jpg'
+import Emma from '../../assets/img/picture-emma.webp'
 
 function Home() {
   return (

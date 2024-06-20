@@ -28,15 +28,6 @@ function Header() {
           <i className="fa-solid fa-list-check" aria-label="Projets"></i>
         </NavLink>
         <NavLink
-          to="/apropos"
-          activeclassname="active"
-          exact=""
-          aria-label="Direction à propos Emma Montbarbon"
-        >
-          <p>A propos</p>
-          <i className="fa-solid fa-address-card" aria-label="A propos"></i>
-        </NavLink>
-        <NavLink
           to="/formations"
           activeclassname="active"
           exact=""
@@ -44,6 +35,15 @@ function Header() {
         >
           <p>Formations</p>
           <i className="fa-solid fa-graduation-cap" aria-label="Formations"></i>
+        </NavLink>
+        <NavLink
+          to="/apropos"
+          activeclassname="active"
+          exact=""
+          aria-label="Direction à propos Emma Montbarbon"
+        >
+          <p>A propos</p>
+          <i className="fa-solid fa-address-card" aria-label="A propos"></i>
         </NavLink>
         <NavLink
           to="/contact"
