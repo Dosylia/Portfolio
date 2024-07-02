@@ -57,7 +57,7 @@
     "id": "5",
     "title": "URSG",
     "github": "https://github.com/Dosylia/URSGMVC",
-    "hosting": "",
+    "hosting": "https://ur-sg.com",
     "description": "Projet pour développer une application de mise en relation de gamers. Déjà complété en PHP/HTML mais je manquais d'expérience lors de sa réalisation, il avait des issues. Ce nouveau project utilise le model MVC a pour but d'être optimisé utilisant des bonnes pratiques.",
     "technologies": [
       "fa-brands fa-html5",
