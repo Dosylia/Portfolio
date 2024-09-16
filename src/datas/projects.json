@@ -75,5 +75,14 @@
     "description": "Projet pour développer le back-end d'un site web de notation de livres. La partie React était déjà fournis, la difficulté du projet était d'y greffer Node,Express et Mongo pour pouvoir ajouter, supprimer, modifier des livres ou alors les noter.",
     "technologies": ["fa-brands fa-node", "fa-brands fa-js"],
     "picture": ["mon-vieux-grimoire/mon-vieux-grimoire-1.webp"]
+  },
+  {
+    "id": "7",
+    "title": "URSG mobile app",
+    "github": "https://github.com/Dosylia/URSG_Mobile",
+    "hosting": "",
+    "description": "Projet pour développer créer l'application mobile de URSG en React Native et expo.",
+    "technologies": ["fa-brands fa-react", "fa-brands fa-android"],
+    "picture": ["ursg-mobile/ursg-mobile-1.jpg"]
   }
 ]
