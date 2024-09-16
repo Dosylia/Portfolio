@@ -20,7 +20,7 @@ function Card({
       <article key={id}>
         <div className="image-container" onClick={openModal}>
           <img
-            src={require(`../../assets/img/projects/${image}`)}
+            src={require(`../../assets/img/projects/${image[0]}`)}
             alt={title}
           />
           <div className="image-hover">
@@ -41,16 +41,18 @@ function Card({
               <i className="fa-brands fa-github"></i>
             </button>
           </a>
-          <a
-            href={hosting}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="direction rendu projet"
-          >
-            <button aria-label="boutton rendu site web">
-              <i className="fa-solid fa-link"></i>
-            </button>
-          </a>
+          {hosting !== '' && (
+            <a
+              href={hosting}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="direction rendu projet"
+            >
+              <button aria-label="boutton rendu site web">
+                <i className="fa-solid fa-link"></i>
+              </button>
+            </a>
+          )}
         </div>
         <div className="tech-container">
           {technologies.map((tech, index) => (
@@ -67,6 +69,15 @@ function Card({
             </span>
             <h2>{title}</h2>
             <p>{description}</p>
+            <div className="modal-pic-container">
+              {image.map((picture, index) => (
+                <img
+                  key={index}
+                  src={require(`../../assets/img/projects/${picture}`)}
+                  alt={title}
+                />
+              ))}
+            </div>
           </div>
         </div>
       )}

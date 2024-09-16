@@ -83,6 +83,9 @@
     "hosting": "",
     "description": "Projet pour développer créer l'application mobile de URSG en React Native et expo.",
     "technologies": ["fa-brands fa-react", "fa-brands fa-android"],
-    "picture": ["ursg-mobile/ursg-mobile-1.jpg"]
+    "picture": [
+      "ursg-mobile/ursg-mobile-1.jpg",
+      "ursg-mobile/ursg-mobile-2.jpg"
+    ]
   }
 ]

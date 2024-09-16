@@ -33,8 +33,8 @@ function Training() {
           </p>
           <Collapse collapseTitle={'Partie 1 - HTML/CSS'}>
             <div className="tech">
-              <i class="fa-brands fa-html5"></i>
-              <i class="fa-brands fa-css3-alt"></i>
+              <i className="fa-brands fa-html5"></i>
+              <i className="fa-brands fa-css3-alt"></i>
             </div>
             <img
               className="image-dev"
@@ -50,13 +50,13 @@ function Training() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </p>
           </Collapse>
           <Collapse collapseTitle={'Partie 2 - JavaScript / API REST'}>
             <div className="tech">
-              <i class="fa-brands fa-js"></i>
+              <i className="fa-brands fa-js"></i>
             </div>
             <img
               className="image-dev"
@@ -71,7 +71,7 @@ function Training() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </p>
           </Collapse>
@@ -90,14 +90,14 @@ function Training() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </p>
           </Collapse>
           <Collapse collapseTitle={'Partie 4 - React'}>
             <div className="tech">
-              <i class="fa-brands fa-react"></i>
-              <i class="fa-brands fa-sass"></i>
+              <i className="fa-brands fa-react"></i>
+              <i className="fa-brands fa-sass"></i>
             </div>
             <img
               className="image-dev"
@@ -114,13 +114,13 @@ function Training() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </p>
           </Collapse>
           <Collapse collapseTitle={'Partie 5 - Node/Express/MongoDB'}>
             <div className="tech">
-              <i class="fa-brands fa-node"></i>
+              <i className="fa-brands fa-node"></i>
             </div>
             <img
               className="image-dev"
@@ -136,7 +136,7 @@ function Training() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </p>
           </Collapse>
@@ -153,8 +153,8 @@ function Training() {
           </Collapse>
           <Collapse collapseTitle={'Partie 7 - Portfolio'}>
             <div className="tech">
-              <i class="fa-brands fa-react"></i>
-              <i class="fa-brands fa-sass"></i>
+              <i className="fa-brands fa-react"></i>
+              <i className="fa-brands fa-sass"></i>
             </div>
             <p>
               Ce projet est le site web sur lequel vous êtes. La création était
@@ -166,7 +166,7 @@ function Training() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </p>
           </Collapse>
@@ -181,9 +181,9 @@ function Training() {
           </p>
           <Collapse collapseTitle={'Partie 1 : Intégration'}>
             <div className="tech">
-              <i class="fa-brands fa-html5"></i>
-              <i class="fa-brands fa-css3-alt"></i>
-              <i class="fa-brands fa-sass"></i>
+              <i className="fa-brands fa-html5"></i>
+              <i className="fa-brands fa-css3-alt"></i>
+              <i className="fa-brands fa-sass"></i>
             </div>
             <p>
               Au début de cette formation, j'ai étudié le HTML et CSS en
@@ -202,7 +202,7 @@ function Training() {
           </Collapse>
           <Collapse collapseTitle={'Partie 2 : Javascript'}>
             <div className="tech">
-              <i class="fa-brands fa-js"></i>
+              <i className="fa-brands fa-js"></i>
             </div>
             <p>
               Tout d'abord j'ai dû acquérir des connaissances basiques sur
@@ -235,15 +235,15 @@ function Training() {
               bases d'un framework Vue.JS
             </p>
             <div className="tech">
-              <i class="fa-brands fa-vuejs"></i>
+              <i className="fa-brands fa-vuejs"></i>
             </div>
           </Collapse>
           <Collapse
             collapseTitle={'Partie 3 - PHP, SQL et Javascript asynchrone'}
           >
             <div className="tech">
-              <i class="fa-brands fa-js"></i>
-              <i class="fa-brands fa-php"></i>
+              <i className="fa-brands fa-js"></i>
+              <i className="fa-brands fa-php"></i>
             </div>
             <p>
               J'ai commencé mon apprentissage avec un projet de robot où j'ai

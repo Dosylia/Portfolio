@@ -16,7 +16,7 @@ function Projects() {
               <Card
                 className="project-cards"
                 key={project.id}
-                image={project.picture[0]}
+                image={project.picture}
                 title={project.title}
                 github={project.github}
                 hosting={project.hosting}
